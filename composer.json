@@ -1,0 +1,28 @@
+{
+	"name": "liftkit/example-module",
+	"description": "LiftKit example module",
+	"license": "LGP-2.1",
+	"authors": [
+		{
+			"name": "Ryan Williams",
+			"email": "rwilliams@stream9.net",
+			"homepage": "https://www.stream9.net",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"ExampleModule\\": "src/",
+			"ExampleModule\\Tests\\Helpers\\": "tests/helpers/",
+			"ExampleModule\\Tests\\Stub\\": "tests/stub/",
+			"ExampleModule\\Tests\\Unit\\": "tests/unit/"
+		}
+	},
+	"require": {
+		"liftkit/core": "dev-master",
+		"liftkit/document": "1.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.5.*"
+	}
+}
