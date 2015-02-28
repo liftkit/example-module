@@ -11,9 +11,12 @@
 	 */
 
 
-	$router->registerController(
+	$router->registerControllerFactory(
 		'/example',
-		$container->getObject('ExampleModule.Controller.Example'),
+		function () use ($container)
+		{
+			return $container->getObject('ExampleModule.Controller.Example');
+		},
 		'ExampleModule.Example'
 	);
 
