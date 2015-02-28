@@ -1,8 +1,5 @@
 <?php
 
-
-	require_once(__DIR__ . '/vendor/autoload.php');
-
 	use LiftKit\DependencyInjection\Container\Container;
 	use ExampleModule\Module\ExampleModule;
 
