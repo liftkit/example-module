@@ -7,8 +7,7 @@
 	use LiftKit\DependencyInjection\Container\Container;
 
 	use LiftKit\Loader\File\View as ViewLoader;
-	use LiftKit\Document\Document;
-	
+
 
 	abstract class Controller extends LiftKitController
 	{

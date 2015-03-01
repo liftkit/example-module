@@ -72,7 +72,9 @@
 		{
 			$this->scriptLoader->load(
 				$configFile,
-				['container' => $this->container]
+				[
+					'container' => $this->container,
+				]
 			);
 		}
 
