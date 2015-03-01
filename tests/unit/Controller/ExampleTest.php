@@ -2,26 +2,26 @@
 
 
 	namespace ExampleModule\Tests\Unit\Controller;
-	
+
 	use ExampleModule\Tests\Helpers\TestCase;
 	use ExampleModule\Controller\Example as ExampleController;
-	
-	
+
+
 	class ExampleTest extends TestCase
 	{
 		/**
-		 * ExampleController
+		 * @var ExampleController
 		 */
 		protected $controller;
-		
-		
+
+
 		public function setUp ()
 		{
 			parent::setUp();
 			$this->controller = new ExampleController($this->container);
 		}
-		
-		
+
+
 		public function testPage1 ()
 		{
 			$this->assertEquals(
@@ -29,8 +29,8 @@
 				'page1'
 			);
 		}
-		
-		
+
+
 		public function testPage2 ()
 		{
 			$this->assertEquals(
