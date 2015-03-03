@@ -19,7 +19,7 @@
 		}
 	},
 	"require": {
-		"liftkit/core": "dev-master",
+		"liftkit/core": "0.2.*",
 		"liftkit/document": "1.*"
 	},
 	"require-dev": {
