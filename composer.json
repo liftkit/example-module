@@ -19,8 +19,8 @@
 		}
 	},
 	"require": {
-		"liftkit/core": "0.2.*",
-		"liftkit/document": "1.*"
+		"liftkit/core": "~0.3",
+		"liftkit/document": "~1.1"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "4.5.*"
